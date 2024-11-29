@@ -7,7 +7,7 @@ WORKDIR /app
 # Kopiowanie przygotowanej aplikacji do kontenera
 COPY projekt.go .
 
-# Budowanie aplikacji w Go, ---- MOZE CACHE? -----
+# Budowanie aplikacji w Go
 RUN go build projekt.go
 
 
