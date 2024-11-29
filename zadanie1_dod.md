@@ -1,5 +1,8 @@
 # Sprawozdanie zadania 1 z części dodatkowej, punkt 2
 
+### Zawartość pliku Dockerfile_dod
+[Dockerfile_dod](Dockerfile_dod)
+
 ### Polecenie użyte to zbudowania obrazu
 ```
 docker buildx build -f Dockerfile_dod --ssh zad1git=[lokalizacja mojego ssh] \
